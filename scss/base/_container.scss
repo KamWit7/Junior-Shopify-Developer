@@ -1,0 +1,36 @@
+@import "./../utils/variable";
+.container {
+  max-width: 1440px;
+
+  margin: 0 auto;
+  &--margin-t {
+    margin-top: 96px;
+  }
+}
+
+.wrapper {
+  position: relative;
+
+  &--flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--size-circle {
+    position: absolute;
+    right: 34.73px;
+    top: 344.39px;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+  }
+}

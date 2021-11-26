@@ -1,0 +1,35 @@
+@import "./font";
+
+$colors: (
+  font-main-color: #000,
+  font-secondary-color: #fff,
+  font-placeholder-color: #777,
+  bg-main-color: #fff,
+  bg-secondary-color: #000,
+  bg-end-color: #505050,
+  svg-fill-color: #fff,
+  svg-fill-darker-color: #010101,
+  svg-stroke-color: #000,
+  svg-tranistion-color: rgba(0, 0, 0, 0.164),
+  slider-nav-color: #c4c4c4,
+  slider-dark-nav-color: #020203,
+);
+
+$fonts: (
+  "main-gilroy": (
+    "Gilroy",
+    sans-serif,
+  ),
+  "secondary-grotesque-pro": (
+    "Basis Grotesque Pro",
+    sans-serif,
+  ),
+);
+
+@function getColor($name) {
+  @return map-get($colors, $name);
+}
+
+@function getFont($font) {
+  @return map-get($fonts, $font);
+}

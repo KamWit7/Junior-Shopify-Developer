@@ -1,0 +1,15 @@
+.img {
+  &--margin-t {
+    margin-top: 24px;
+  }
+  &--margin-r {
+    margin-right: 24px;
+  }
+  &--margin-l {
+    margin-left: 24px;
+  }
+
+  &--small-size {
+    width: 220px;
+  }
+}

@@ -1,0 +1,52 @@
+@import "./../utils/variable";
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header {
+  &--container {
+    max-width: 1920px;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  &--flex {
+    @extend .flex-row;
+  }
+}
+
+.nav {
+  &-list {
+    &--flex {
+      @extend .flex-row;
+    }
+
+    &__item {
+      width: 35px;
+      height: 35px;
+
+      margin-top: 82px;
+      margin-right: 17px;
+
+      &:last-child {
+        margin-right: 83px;
+      }
+
+      &--center-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: getColor(bg-secondary-color);
+      }
+    }
+  }
+}

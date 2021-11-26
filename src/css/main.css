@@ -1,0 +1,1044 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@-webkit-keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+.transition {
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.transition__svg {
+  -webkit-transition-property: fill, stroke;
+  transition-property: fill, stroke;
+}
+
+.transition__list, .transition__btn {
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.transition__text {
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.svg-logo--shake:hover {
+  -webkit-animation: shake 0.82s ease-in-out both;
+          animation: shake 0.82s ease-in-out both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.img--margin-t {
+  margin-top: 24px;
+}
+
+.img--margin-r {
+  margin-right: 24px;
+}
+
+.img--margin-l {
+  margin-left: 24px;
+}
+
+.img--small-size {
+  width: 220px;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btn {
+  width: 105px;
+  height: 50px;
+  border: 2px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #777;
+}
+
+.btn__text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000;
+}
+
+.btn:hover .btn__text,
+.btn:focus .btn__text {
+  color: #fff;
+}
+
+.btn--dark-theme {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn--dark-theme:hover, .btn--dark-theme:focus {
+  background-color: #777;
+}
+
+.btn--margin-t {
+  margin-top: 24px;
+}
+
+.btn--margin-t-footer {
+  margin-top: 24px;
+}
+
+.btn--align-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.svg, .svg-human, .svg-bag, .svg-loupe {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  stroke: #000;
+}
+
+.svg-logo {
+  width: 248.9px;
+  height: 38.89px;
+  margin-top: 75px;
+  margin-left: 81px;
+}
+
+.svg-logo--dark-theme {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.nav-list__item:hover .svg-human,
+.nav-list__item:focus .svg-human, .nav-list__item:hover .svg-bag,
+.nav-list__item:focus .svg-bag, .nav-list__item:hover .svg-loupe,
+.nav-list__item:focus .svg-loupe {
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0.164);
+  stroke: #fff;
+}
+
+.svg-social {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.svg-social--big-size {
+  width: 20.67px;
+  height: 25px;
+}
+
+.social-list__item:hover .svg-social,
+.social-list__item:focus .svg-social {
+  cursor: pointer;
+  fill: #010101;
+}
+
+.svg-line {
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  stroke: #777;
+  top: 36px;
+}
+
+.svg-vector {
+  width: 11.22px;
+  height: 19.17px;
+  fill: #fff;
+}
+
+.wrapper--size-circle:hover .svg-vector {
+  fill: #010101;
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
+  display: none;
+}
+
+#lightbox.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-img {
+  -webkit-box-shadow: 10px 12px 36px 2px rgba(0, 0, 0, 0.692);
+          box-shadow: 10px 12px 36px 2px rgba(0, 0, 0, 0.692);
+}
+
+.close {
+  display: inline-block;
+  background: url("./../../src/images/close.png") top center no-repeat;
+  background-size: contain;
+  -webkit-filter: blur(0.6px);
+          filter: blur(0.6px);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  z-index: 10000000;
+}
+
+.close:hover {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container--margin-t {
+  margin-top: 96px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper--size-circle {
+  position: absolute;
+  right: 34.73px;
+  top: 344.39px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.wrapper--size-circle:hover, .wrapper--size-circle:focus {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.loading-circle {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  position: relative;
+  -webkit-transform: translateZ(0) scale(1);
+          transform: translateZ(0) scale(1);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.loading-circle div {
+  position: absolute;
+  border-width: 7.6px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.loading-circle div:first-child {
+  border-color: #020203;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.loading-circle div:last-child {
+  border-color: #505050;
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+@-webkit-keyframes loading-circle {
+  0% {
+    top: 68.4px;
+    left: 68.4px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -2.2800000000000002px;
+    left: -2.2800000000000002px;
+    width: 141.36px;
+    height: 141.36px;
+    opacity: 0;
+  }
+}
+
+@keyframes loading-circle {
+  0% {
+    top: 68.4px;
+    left: 68.4px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -2.2800000000000002px;
+    left: -2.2800000000000002px;
+    width: 141.36px;
+    height: 141.36px;
+    opacity: 0;
+  }
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.flex-row, .header--flex, .nav-list--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header--container {
+  max-width: 1920px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-list__item {
+  width: 35px;
+  height: 35px;
+  margin-top: 82px;
+  margin-right: 17px;
+}
+
+.nav-list__item:last-child {
+  margin-right: 83px;
+}
+
+.nav-list__item--center-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.nav-list__item:hover, .nav-list__item:focus {
+  background-color: #000;
+}
+
+.gallery-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery-list--row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product--margin-t {
+  margin-top: 96px;
+}
+
+.product__title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 65px;
+  color: #000;
+}
+
+.product__price {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 65px;
+  color: #000;
+}
+
+.product__price--margin-t {
+  margin-top: 24px;
+}
+
+.product__description {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #000;
+}
+
+.product__description--margin-t {
+  margin-top: 24px;
+}
+
+.products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products-list__item {
+  width: 580px;
+}
+
+.products-list__item--margin-r {
+  margin-right: 152px;
+}
+
+.products-list__item--margin-t {
+  margin-top: 305px;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about--margin-t {
+  margin-top: 142.1px;
+}
+
+.about__description {
+  position: relative;
+  width: 454px;
+  height: 240px;
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  color: #000;
+}
+
+.about__description--margin-r {
+  margin-right: 34.1px;
+}
+
+.about__description::before {
+  content: "";
+  display: inline-block;
+  background: url("./../../src/svg/quote.svg") top center no-repeat;
+  position: absolute;
+  top: -46.1px;
+  left: -10px;
+  z-index: -1;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 95.1px;
+  height: 86.4px;
+}
+
+.about__description::after {
+  content: "";
+  display: inline-block;
+  background: url("./../../src/svg/quote.svg") top center no-repeat;
+  position: absolute;
+  bottom: -43.4px;
+  right: 0;
+  z-index: -1;
+  width: 95.1px;
+  height: 86.4px;
+}
+
+.about__title {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 65px;
+  text-align: center;
+  color: #000;
+}
+
+.about__title--margin-t {
+  margin-top: 67.4px;
+}
+
+.about-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 63.5px;
+  margin-bottom: 64px;
+}
+
+.slider__indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+.slider__indicator:hover, .slider__indicator:focus {
+  background-color: #020203;
+}
+
+.slider__indicator--margin-r {
+  margin-right: 16px;
+}
+
+.slider .curent {
+  background-color: #000;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./../../src/fonts/Gilroy/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./../../src/fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.footer {
+  color: #fff;
+}
+
+.footer--bgc-dark {
+  background-color: #000;
+}
+
+.footer--bgc-grey {
+  background-color: #505050;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-list__item {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.footer-list__item--margin-r {
+  margin-right: 86.3px;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 282.7px;
+}
+
+.social-list--maring-t {
+  margin-top: 40.57px;
+}
+
+.social-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.social-list__item:hover, .social-list__item:focus {
+  background-color: #fff;
+}
+
+.menu-list {
+  width: 317px;
+}
+
+.menu-list__title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+}
+
+.menu-list__item {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.menu-list__item--margin-b {
+  margin-bottom: 29px;
+}
+
+.menu-list__item:hover:nth-child(n + 2) {
+  text-shadow: 2px 5px 7px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__label {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.form__email {
+  width: 340px;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+  color: #777;
+}
+
+.form__email::-webkit-input-placeholder {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #777;
+}
+
+.form__email:-ms-input-placeholder {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #777;
+}
+
+.form__email::-ms-input-placeholder {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #777;
+}
+
+.form__email::placeholder {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #777;
+}
+
+.form__email:hover, .form__email:focus, .form__email:active {
+  outline: none;
+}
+
+.form__email--margin-t {
+  margin-top: 40px;
+}
+
+.copyright {
+  position: relative;
+  display: block;
+  width: 254px;
+}
+
+.copyright__text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 51px;
+  padding-bottom: 36px;
+}
+/*# sourceMappingURL=main.css.map */

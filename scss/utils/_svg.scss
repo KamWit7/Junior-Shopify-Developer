@@ -1,0 +1,74 @@
+@import "./variable";
+.svg {
+  width: 24px;
+  height: 24px;
+
+  fill: getColor(svg-fill-color);
+  stroke: getColor(svg-stroke-color);
+
+  &-logo {
+    width: 248.9px;
+    height: 38.89px;
+
+    margin-top: 75px;
+    margin-left: 81px;
+
+    &--dark-theme {
+      margin-top: 0;
+      margin-left: 0;
+    }
+  }
+
+  &-human,
+  &-bag,
+  &-loupe {
+    @extend .svg;
+
+    .nav-list__item:hover &,
+    .nav-list__item:focus & {
+      cursor: pointer;
+
+      fill: getColor(svg-tranistion-color);
+      stroke: getColor(svg-fill-color);
+    }
+  }
+
+  &-social {
+    fill: getColor(svg-fill-color);
+
+    width: 20px;
+    height: 20px;
+
+    &--big-size {
+      width: 20.67px;
+      height: 25px;
+    }
+
+    .social-list__item:hover &,
+    .social-list__item:focus & {
+      cursor: pointer;
+
+      fill: getColor(svg-fill-darker-color);
+    }
+  }
+
+  &-line {
+    position: absolute;
+
+    width: 1440px;
+    height: 2px;
+    stroke: getColor(font-placeholder-color);
+
+    top: 36px;
+  }
+
+  &-vector {
+    width: 11.22px;
+    height: 19.17px;
+    fill: getColor(svg-fill-color);
+
+    .wrapper--size-circle:hover & {
+      fill: getColor(svg-fill-darker-color);
+    }
+  }
+}

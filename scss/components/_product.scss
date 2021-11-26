@@ -1,0 +1,58 @@
+.product {
+  &--margin-t {
+    margin-top: 96px;
+  }
+
+  &__title {
+    font-family: getFont(main-gilroy);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 65px;
+
+    color: getColor(font-main-color);
+  }
+  &__price {
+    font-family: getFont(main-gilroy);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 65px;
+
+    color: getColor(font-main-color);
+
+    &--margin-t {
+      margin-top: 24px;
+    }
+  }
+  &__description {
+    font-family: getFont(main-gilroy);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: justify;
+
+    color: getColor(font-main-color);
+
+    &--margin-t {
+      margin-top: 24px;
+    }
+  }
+}
+
+.products-list {
+  display: flex;
+
+  &__item {
+    width: 580px;
+
+    &--margin-r {
+      margin-right: 152px;
+    }
+    &--margin-t {
+      margin-top: 305px;
+    }
+  }
+}

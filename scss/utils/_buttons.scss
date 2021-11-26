@@ -1,0 +1,58 @@
+@import "./variable";
+.btn {
+  width: 105px;
+  height: 50px;
+
+  border: 2px solid getColor(font-main-color);
+  box-sizing: border-box;
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: getColor(font-placeholder-color);
+  }
+
+  &__text {
+    font-family: getFont(main-gilroy);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: justify;
+
+    box-sizing: border-box;
+
+    color: getColor(font-main-color);
+
+    .btn:hover &,
+    .btn:focus & {
+      color: getColor(font-secondary-color);
+    }
+  }
+
+  &--dark-theme {
+    border: 2px solid getColor(font-secondary-color);
+    color: getColor(font-secondary-color);
+    
+    &:hover,
+    &:focus {
+      background-color: getColor(font-placeholder-color);
+    }
+  }
+
+  &--margin-t {
+    margin-top: 24px;
+  }
+
+  &--margin-t-footer {
+    margin-top: 24px;
+  }
+
+  &--align-end {
+    align-self: flex-end;
+  }
+}
