@@ -74,6 +74,21 @@
 
 .about-list {
   display: flex;
+  position: relative;
+
+  &__loading {
+    position: absolute;
+    background-color: getColor(bg-main-color);
+    width: 105%;
+    height: 120%;
+    z-index: 100000;
+    top: -15%;
+    left: -5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .slider {
@@ -106,7 +121,7 @@
     }
   }
 
-  .curent {
-    background-color: #000;
-  }
+  // .curent {
+  //   // background-color: #000;
+  // }
 }

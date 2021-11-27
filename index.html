@@ -8,12 +8,15 @@
     <title>Brand Active</title>
 
     <link rel="stylesheet" href="./src/css/main.min.css" />
+
+    <script src="./src/js/script.js" type="module"></script>
+    <script src="./src/js/lightbox.js" type="module"></script>
+    <script src="./src/js/slider.js" type="module"></script>
   </head>
   <body>
     <header class="header header--container header--flex">
       <a href="index.html">
         <svg class="svg-logo svg-logo--shake">
-          svg-logo--shake
           <use href="./src/svg/symbol-defs.svg#icon-logo"></use>
         </svg>
       </a>
@@ -139,7 +142,7 @@
                   </svg>
                 </div>
                 <img
-                  class="img"
+                  class="img img-main"
                   src="./src/images/main-meeting.jpg"
                   alt="Business meeting with coffee"
                 />
@@ -176,12 +179,10 @@
 
       <section class="about about--margin-t">
         <ul class="about-list">
-          <li>
-            <div class="loading-box">
-              <div class="loading-circle">
-                <div></div>
-                <div></div>
-              </div>
+          <li class="about-list__loading about-list__loading--bg-transparetn">
+            <div class="loading-circle loading-circle--hide">
+              <div></div>
+              <div></div>
             </div>
           </li>
           <li>
@@ -331,15 +332,14 @@
               autocomplete="on"
               novalidate
             >
-              <label class="form__label" for="email">NEWSLETTER</label>
+              <label class="form__label" for="email"> NEWSLETTER </label>
               <input
+                id="email"
                 class="form__email form__email--margin-t"
                 type="email"
                 name="email"
                 placeholder="Your e-mail"
-                autocorrect="off"
                 autocomplete="off"
-                type="text"
               />
               <button
                 class="
@@ -368,7 +368,6 @@
         </div>
       </section>
     </footer>
-
     <script src="./src/js/script.js" type="module"></script>
     <script src="./src/js/lightbox.js" type="module"></script>
     <script src="./src/js/slider.js" type="module"></script>

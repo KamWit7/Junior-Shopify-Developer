@@ -1,3 +1,5 @@
+@import './keyframes';
+
 .img {
   &--margin-t {
     margin-top: 24px;
@@ -12,4 +14,22 @@
   &--small-size {
     width: 220px;
   }
+
+  &-main {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 707.99px;
+    height: 707.99px;
+
+    &--next-img {
+      animation: fadeOut 500ms ease-in-out;
+    }
+  }
+}
+
+.big-img {
+  box-sizing: border-box;
+  width: 707.99px;
+  height: 707.99px;
 }

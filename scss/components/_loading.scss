@@ -1,12 +1,21 @@
 @import "./../utils/variable";
+@import "./../utils/keyframes";
+
 .loading-circle {
-  width: 100%;
-  height: 100%;
+  width: 0;
+  height: 0;
   box-sizing: content-box;
   position: relative;
   transform: translateZ(0) scale(1);
-  //   backface-visibility: hidden;
+  backface-visibility: hidden;
   transform-origin: 0 0;
+  top: -20px;
+  left: -2.68%;
+
+  &--hide {
+    display: none;
+    visibility: hidden;
+  }
 
   & div {
     position: absolute;
@@ -28,19 +37,3 @@
   }
 }
 
-@keyframes loading-circle {
-  0% {
-    top: 68.4px;
-    left: 68.4px;
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  100% {
-    top: -2.2800000000000002px;
-    left: -2.2800000000000002px;
-    width: 141.36px;
-    height: 141.36px;
-    opacity: 0;
-  }
-}
