@@ -7,7 +7,6 @@ const imgs = [
   { src: "./src/images/cat-with-glasses.jpg" },
   { src: "./src/images/main-meeting.jpg" },
   { src: "./src/images/cat-with-glasses.jpg" },
-  { src: "./src/images/main-meeting.jpg" },
   { src: "https://pethealth.vn/wp-content/uploads/2020/02/shiba_1.jpg" },
 ]
 

@@ -10,8 +10,7 @@
 
   cursor: pointer;
 
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: getColor(font-placeholder-color);
   }
 
@@ -28,8 +27,7 @@
 
     color: getColor(font-main-color);
 
-    .btn:hover &,
-    .btn:focus & {
+    .btn:hover & {
       color: getColor(font-secondary-color);
     }
   }
@@ -37,7 +35,7 @@
   &--dark-theme {
     border: 2px solid getColor(font-secondary-color);
     color: getColor(font-secondary-color);
-    
+
     &:hover,
     &:focus {
       background-color: getColor(font-placeholder-color);

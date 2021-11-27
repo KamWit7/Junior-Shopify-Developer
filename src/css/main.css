@@ -226,6 +226,16 @@
           animation-fill-mode: forwards;
 }
 
+.loading-circle div {
+  -webkit-animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.img-main--next-img {
+  -webkit-animation: fadeOut 500ms ease-in-out;
+          animation: fadeOut 500ms ease-in-out;
+}
+
 @keyframes shake {
   10%,
   90% {
@@ -317,11 +327,6 @@
   height: 707.99px;
 }
 
-.img-main--next-img {
-  -webkit-animation: fadeOut 500ms ease-in-out;
-          animation: fadeOut 500ms ease-in-out;
-}
-
 .big-img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -367,7 +372,7 @@
   cursor: pointer;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover {
   background-color: #777;
 }
 
@@ -383,8 +388,7 @@
   color: #000;
 }
 
-.btn:hover .btn__text,
-.btn:focus .btn__text {
+.btn:hover .btn__text {
   color: #fff;
 }
 
@@ -538,7 +542,6 @@
   -webkit-filter: blur(0.6px);
           filter: blur(0.6px);
   position: relative;
-  top: 0.5px;
   width: 20px;
   height: 20px;
   z-index: 10000000;
@@ -805,8 +808,6 @@ img {
   border-style: solid;
   opacity: 1;
   border-radius: 50%;
-  -webkit-animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-          animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
 .loading-circle div:first-child {

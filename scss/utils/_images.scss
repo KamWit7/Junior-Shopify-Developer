@@ -1,4 +1,4 @@
-@import './keyframes';
+@import "./keyframes";
 
 .img {
   &--margin-t {
@@ -21,10 +21,6 @@
     box-sizing: border-box;
     width: 707.99px;
     height: 707.99px;
-
-    &--next-img {
-      animation: fadeOut 500ms ease-in-out;
-    }
   }
 }
 

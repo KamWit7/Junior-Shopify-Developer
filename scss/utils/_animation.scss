@@ -37,3 +37,10 @@
   }
 }
 
+.loading-circle div {
+  animation: loading-circle 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.img-main--next-img {
+  animation: fadeOut 500ms ease-in-out;
+}
